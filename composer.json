@@ -1,0 +1,17 @@
+{
+    "name": "dreal/first_project",
+    "description": "A PHP Application for tracking expenses.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Nero"
+        }
+    ],
+    "require": {},
+    "autoload": {
+       "psr-4": {
+            "Framework\\": "src/Framework/",
+            "App\\": "src/App"
+       }
+    }
+}
